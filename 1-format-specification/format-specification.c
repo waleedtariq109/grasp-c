@@ -15,7 +15,7 @@ int main() {
    */
 
   printf("%d\n", 56);
-  printf("%u\n", -8);
+  printf("%u\n", 8);
   printf("%f\n", 98.98);
   printf("%.2f\n", 98.98);
   printf("%c\n", 'C');
