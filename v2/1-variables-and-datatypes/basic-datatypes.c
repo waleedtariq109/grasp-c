@@ -39,6 +39,33 @@ int main() {
    * but `_Bool` is the actual type in action.
    */
 
+  /**
+   * In C we also have two types of modifiers:
+   *
+   * 1: Size modifiers
+   *    - These modifiers adjust the size of a data type.
+   *    - Examples:
+   *      - `short` reduces the size of an integer (typically 2 bytes).
+   *      - `long` increases the size of an integer (typically 4 bytes).
+   *      - `long long` further increases the size for larger integer values (typically 8 bytes or more).
+   *
+   * 2: Sign modifiers
+   *    - These modifiers determine whether the variable can store negative numbers (signed) or only non-negative numbers (unsigned).
+   *    - Examples:
+   *      - `signed` allows both positive and negative values (default for `int`).
+   *      - `unsigned` allows only non-negative values, effectively doubling the upper range of the type's positive values.
+   */
+
+  short int shortVar = 5;                         // 2 bytes, signed by default
+  long int longVar = 1234567890L;                 // 4 bytes or more
+  long long int longLongVar = 123456789012345LL;  // 8 bytes or more
+  unsigned int unsignedVar = 100;                 // Non-negative integers only
+
+  printf("short: %d\n", shortVar);
+  printf("long: %ld\n", longVar);
+  printf("long long: %lld\n", longLongVar);
+  printf("unsigned: %u\n", unsignedVar);
+
   printf("%d\n", intVariable);
   printf("%f\n", floatVariable);
   printf("%lf\n", doubleVariable);
