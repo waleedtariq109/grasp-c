@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/grasp-c.iml" filepath="$PROJECT_DIR$/.idea/grasp-c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/grasp_c.iml" filepath="$PROJECT_DIR$/.idea/grasp_c.iml" />
     </modules>
   </component>
 </project>
