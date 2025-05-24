@@ -10,7 +10,7 @@ int main(void) {
   signed int signedIntVariable = -876;
   unsigned int unsignedIntVariable = 287;
 
-  long int longIntVariable = 893729847284;
+  long int longIntVariable = 893729847284L;
   short int shortIntVariable = 879;
 
   /**
