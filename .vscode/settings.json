@@ -3,6 +3,7 @@
     "*.page-template": "vue",
     "*.layout-template": "vue",
     "*.vue": "vue",
-    "stdbool.h": "c"
+    "stdbool.h": "c",
+    "stdio.h": "c"
   }
 }
